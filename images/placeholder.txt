@@ -1,1 +1,38 @@
+![Customer Age Distribution](images/customer_age_distribution.png)
+![Total Purchase Amount](images/total_purchase_distribution.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
