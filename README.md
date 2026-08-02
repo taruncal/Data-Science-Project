@@ -13,7 +13,7 @@ TECH STACK: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter No
 
 🚀 METHODOLOGY AND OVERVIEW (needs to be overviewed)
 1. DATA PREPROCESSING & CLEANING: Corrected the spelling of "instagram campaign" in "SOURCE column" and spelling of the column "LONGITUDE", There was no duplicated or null value in the embedded data of every column, Changed the datatype of the Column "Purchase_Date"
-2. EXPLORATORY DATA ANALYSIS (EDA): Uncovered trends, feature correlations, and data distributions.
+2. EXPLORATORY DATA ANALYSIS (EDA): Uncovered trends(), feature correlations, and data distributions.
 3. MODEL TRAINING AND EVALUATION: Trained machine learning models and evaluated them using relevant metrics.
 
 
