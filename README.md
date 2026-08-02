@@ -33,7 +33,7 @@ DEMOGRAPHIC & GEOGRAPHICAL CONCENTRATION: The User Base exhibits a concentrated 
 
 
 
-💡 CONCLUSION AND FUTURE SCOPE
+💡CONCLUSION AND FUTURE SCOPE
 SUMMARY: Successfully Cleaned 250,000+ Records, Resolved formatting errors, and extracted vital demographic and acquisition metrics.
 
 NEXT STEPS: Future Iterations of This Project can Incorporate Advanced Machine Learning classification or Predictive Modeling to Forecast User Churn or Conversion Rates Based on Geographic and Channel Variables.
