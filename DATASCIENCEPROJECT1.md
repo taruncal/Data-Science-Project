@@ -55,7 +55,6 @@ REVENUE AND SPENDING DISTRIBUTION: The Mean Total purchase amount of $2,725 and 
 
 KEY INSIGHT 2
 
-
 FEATURE PREDICTIBILITY: Because standard variables (price, quantity, age, NPS) displayed zero extreme outliers, machine learning regression models relied heavily on encoded categorical interactions (like product categories and channels) to predict total spend.
 
 
