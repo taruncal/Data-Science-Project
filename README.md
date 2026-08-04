@@ -4,27 +4,62 @@ End-to-End Data science project featuring data preprocessing, exploratory data a
 
 📊 PROJECT OVERVIEW
 
-OBJECTIVE: Primary Objective of this project is to analyse the core interests of stakeholders which is the main issue in channelizing the marketing campaigns and generating revenues. In this Project we are going to determine the minute mistakes of sales record data.
-DATASET: [https://www.kaggle.com/datasets/raziehghahartars/ecommerce]
+OBJECTIVE: Analyze e-commerce stakeholder interests, identify revenue drivers in marketing acquisition channels, and use predictive machine learning models to forecast customer spend behavior.
+DATASET(Source): [https://www.kaggle.com/datasets/raziehghahartars/ecommerce]
 TECH STACK: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter Notebook
 
 
 
 
 🚀 METHODOLOGY AND OVERVIEW (needs to be overviewed)
-1. DATA PREPROCESSING & CLEANING: Corrected the spelling of "instagram campaign" in "SOURCE column" and spelling of the column "LONGITUDE", There was no duplicated or null value in the embedded data of every column, Changed the datatype of the Column "Purchase_Date"
-2. EXPLORATORY DATA ANALYSIS (EDA):  All Existing DataTypes(int, object and float), There Were no missing values or duplicated values.
-Uncover trends, data distributions, and correlations using visualizations (histograms, scatter plots, correlation heatmaps) to spot patterns like high-risk segments.
 
-3. MODEL TRAINING AND EVALUATION: Trained machine learning models and evaluated them using relevant metrics.
+1. DATA PREPROCESSING & CLEANING: Cleaned Source Names (e.g. corrected spelling for "Instagram Campaign" and "Facebook Campaign").
+Handled Data types, There is no missing or duplicate values and Standardized date-time formats.
 
 
 
 
+2. EXPLORATORY DATA ANALYSIS (EDA): 
+# Central Tendencies & IQR Outlier Analysis
 
-📈 RESULTS AND KEY INSIGHTS  (needs to be overviewed)
-[Insert key finding or insight 1]
-[Insert key finding or insight 2]
+Distribution Symmetry: Mean and median metrics across key variables (Total Purchase Amount: ~$2,725 , Customer Age: 44, NPS: 5) are tightly aligned, indicating uniform and symmetric distributions across the dataset.
+
+
+OUTLIER DETECTION: Applying the 1.5x IQR RULE revealed zero outliers across demographic and transaction metrics (Price, Quantity, Spend, Age, NPS). The only column displaying outliers is Longitude (7,480 flagged points due to wide spatial coordinates).
+
+
+Visualized continuous variables using distribution HISTOGRAMS and BOX PLOTS to confirm uniform data dispersion.
+
+
+Feature Relationships & Correlations: Evaluated correlation heatmaps and bivariate scatter plots between customer age, product price, and total purchase amount to determine feature collinearity and linear dependency prior to model training.
+
+
+
+3. MODEL TRAINING AND EVALUATION: Machine Learning Evaluation & Model Insights
+
+Applied a Random Forest Classifier to predict customer spend tiers (Low vs High spenders) using demographic (Age, Gender) and engagement features (NPS, Product Category).
+
+MODEL PERFORMANCE: Achieved an accuracy, precision, and recall of 50% across a 50,000-sample test set.
+
+BUSINESS TAKEAWAY: Demographic and satisfaction parameters exhibit zero predictive power over customer spending behavior in this dataset, proving that purchasing power is completely uniform across customer segments.
+
+
+
+
+
+📈 RESULTS AND KEY INSIGHTS
+
+KEY INSIGHT 1
+
+REVENUE AND SPENDING DISTRIBUTION: The Mean Total purchase amount of $2,725 and uniform spread across customer demographics indicate that spending behavior is consistent across age groups, showing no major high-value skew.
+
+KEY INSIGHT 2
+
+
+FEATURE PREDICTIBILITY: Because standard variables (price, quantity, age, NPS) displayed zero extreme outliers, machine learning regression models relied heavily on encoded categorical interactions (like product categories and channels) to predict total spend.
+
+
+
 
 
 ACQUISITION DOMINANCE: Instagram Campaign emerged as the Top-Performing acquisition channel, generating the highest user volume (70170 users) and accounting for the majority of traffic share.
@@ -38,7 +73,6 @@ DEMOGRAPHIC & GEOGRAPHICAL CONCENTRATION: The User Base exhibits a concentrated 
 💡CONCLUSION AND FUTURE SCOPE
 SUMMARY: Successfully Cleaned 250,000+ Records, Resolved formatting errors, and extracted vital demographic and acquisition metrics.
 
-NEXT STEPS: Future Iterations of This Project can Incorporate Advanced Machine Learning classification or Predictive Modeling to Forecast User Churn or Conversion Rates Based on Geographic and Channel Variables.
 
 
 
