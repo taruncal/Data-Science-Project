@@ -5,13 +5,17 @@ End-to-End Data science project featuring data preprocessing, exploratory data a
 PROJECT OVERVIEW
 
 OBJECTIVE: Analyze e-commerce stakeholder interests, identify revenue drivers in marketing acquisition channels, and use predictive machine learning models to forecast customer spend behavior.
+
 DATASET(Source): [https://www.kaggle.com/datasets/raziehghahartars/ecommerce]
+
 TECH STACK: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter Notebook
 
+GENERATIVE AI USED: GOOGLE GEMINI , CLAUD 
 
 
 
- METHODOLOGY AND OVERVIEW (needs to be overviewed)
+
+METHODOLOGY AND OVERVIEW (needs to be overviewed)
 
 1. DATA PREPROCESSING & CLEANING: Cleaned Source Names (e.g. corrected spelling for "Instagram Campaign" and "Facebook Campaign").
 Handled Data types, There is no missing or duplicate values and Standardized date-time formats.
@@ -22,7 +26,7 @@ Handled Data types, There is no missing or duplicate values and Standardized dat
 2. EXPLORATORY DATA ANALYSIS (EDA): 
 # Central Tendencies & IQR Outlier Analysis
 
-Distribution Symmetry: Mean and median metrics across key variables (Total Purchase Amount: ~$2,725 , Customer Age: 44, NPS: 5) are tightly aligned, indicating uniform and symmetric distributions across the dataset.
+DISTRIBUTION SYMMETRY: Mean and median metrics across key variables (Total Purchase Amount: ~$2,725 , Customer Age: 44, NPS: 5) are tightly aligned, indicating uniform and symmetric distributions across the dataset.
 
 
 OUTLIER DETECTION: Applying the 1.5x IQR RULE revealed zero outliers across demographic and transaction metrics (Price, Quantity, Spend, Age, NPS). The only column displaying outliers is Longitude (7,480 flagged points due to wide spatial coordinates).
@@ -31,7 +35,7 @@ OUTLIER DETECTION: Applying the 1.5x IQR RULE revealed zero outliers across demo
 Visualized continuous variables using distribution HISTOGRAMS and BOX PLOTS to confirm uniform data dispersion.
 
 
-Feature Relationships & Correlations: Evaluated correlation heatmaps and bivariate scatter plots between customer age, product price, and total purchase amount to determine feature collinearity and linear dependency prior to model training.
+FEATURE RELATIONSHIPS & CORRELATIONS: Evaluated correlation heatmaps and bivariate scatter plots between customer age, product price, and total purchase amount to determine feature collinearity and linear dependency prior to model training.
 
 
 
