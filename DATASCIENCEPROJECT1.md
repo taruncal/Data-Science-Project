@@ -2,7 +2,7 @@
 End-to-End Data science project featuring data preprocessing, exploratory data analysis, and machine learning modeling using Python.
 
 
-📊 PROJECT OVERVIEW
+PROJECT OVERVIEW
 
 OBJECTIVE: Analyze e-commerce stakeholder interests, identify revenue drivers in marketing acquisition channels, and use predictive machine learning models to forecast customer spend behavior.
 DATASET(Source): [https://www.kaggle.com/datasets/raziehghahartars/ecommerce]
@@ -11,7 +11,7 @@ TECH STACK: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter No
 
 
 
-🚀 METHODOLOGY AND OVERVIEW (needs to be overviewed)
+ METHODOLOGY AND OVERVIEW (needs to be overviewed)
 
 1. DATA PREPROCESSING & CLEANING: Cleaned Source Names (e.g. corrected spelling for "Instagram Campaign" and "Facebook Campaign").
 Handled Data types, There is no missing or duplicate values and Standardized date-time formats.
@@ -47,7 +47,7 @@ BUSINESS TAKEAWAY: Demographic and satisfaction parameters exhibit zero predicti
 
 
 
-📈 RESULTS AND KEY INSIGHTS
+RESULTS AND KEY INSIGHTS
 
 KEY INSIGHT 1
 
@@ -69,8 +69,8 @@ DEMOGRAPHIC & GEOGRAPHICAL CONCENTRATION: The User Base exhibits a concentrated 
 
 
 
-💡CONCLUSION AND FUTURE SCOPE
-SUMMARY: Successfully Cleaned 250,000+ Records, Resolved formatting errors, and extracted vital demographic and acquisition metrics.
+CONCLUSION AND FUTURE SCOPE
+SUMMARY: Successfully Cleaned 250,000+ Records, Resolved formatting errors, and extracted vital demographic and acquisition metrics but no essential insights was extracted as it was all part of the synthetic data
 
 
 
