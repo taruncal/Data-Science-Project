@@ -21,6 +21,9 @@ Books holds the slightly highest average order value at $2,735.74, but the diffe
 Such uniform averages across vastly different product types (like Books vs. Electronics) strongly suggest the dataset was generated artificially with random price distributions.
 
 
+
+---
+
 ### 3. Average Order Value By Source
 
 **Location:** `Average Order Value By Source.jpg` (or `IMAGES FOLDER/Average Order Value By Source.jpg`)
@@ -68,6 +71,9 @@ The alternating height pattern between adjacent histogram bars is a visual binni
 The flat trend across the entire age spectrum confirms that the underlying age values were synthetically generated using a uniform random distribution.
 
 
+
+---
+
 ### 7. NPS Distribution
 
 **Location:** `NPS Distribution.jpg` (or `IMAGES FOLDER/NPS Distribution.jpg`)
@@ -77,6 +83,8 @@ The Net Promoter Score (NPS) distribution is completely flat across all values f
 Because 7 of the 11 bins (0–6) are classified as Detractors while only 2 bins (9–10) are Promoters, the flat spread inherently skews the final NPS calculation negative (-45.5).
 
 This perfectly equal distribution confirms that the customer survey responses were generated synthetically using a uniform random integer distribution.
+
+----
 
 
 
@@ -93,6 +101,10 @@ Organic Search lags significantly behind paid channels, acquiring 27,170 custome
 
 
 
+----
+
+
+
 ### 9. Revenue By Age Group
 
 **Location:** `Revenue By Age Group.jpg` (or `IMAGES FOLDER/Revenue By Age Group.jpg`)
@@ -102,6 +114,12 @@ The 55+ demographic drives the highest total sales volume by far, generating $21
 Revenue across middle-age brackets (25–34, 35–44, and 45–54) remains virtually uniform, averaging roughly $125M–$127M per group.
 
 The youngest segment (18–24) contributes the lowest overall revenue at $91.12M, largely because it covers a narrower 7-year span compared to the broader age brackets.
+
+
+
+
+---
+
 
 
 
@@ -120,6 +138,9 @@ This near-equal distribution across genders further aligns with the synthetic, u
 
 
 
+----
+
+
 ### 11. Revenue By Source
 
 **Location:** `Revenue By Source.jpg` (or `IMAGES FOLDER/Revenue By Source.jpg`)
@@ -129,6 +150,12 @@ Instagram Campaign is the top revenue generator overall, bringing in $191.22M.
 Facebook Campaign ($182.10M) and SEM ($182.01M) perform nearly identically, taking the second and third spots.
 
 Organic Search trails behind all paid channels significantly, generating $126.01M (~34% less than Instagram).
+
+
+
+
+
+----
 
 
 
@@ -147,6 +174,11 @@ Revenue split is clean and balanced into two distinct tiers: ~30% each for Books
 
 
 
+---
+
+
+
+
 
 ### 13. Revenue Over Time
 
@@ -158,6 +190,10 @@ The final recorded period (around late 2023) shows a sharp drop down to ~$0.75M,
 
 Excluding the partial final month, the overall business displays a highly steady and predictable revenue baseline over the 3-year period.
 
+
+
+
+---
 
 
 
@@ -176,6 +212,9 @@ The small variance among top spenders reflects a balanced high-value customer se
 
 
 
+----
+
+
 
 
 
@@ -191,6 +230,8 @@ The sharp drop-offs at the far left (<$500) and far right (>$5,000) mark the exa
 This perfectly uniform shape confirms that transaction amounts were generated synthetically using a continuous random distribution.
 
 
+
+---
 
 
 
